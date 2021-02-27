@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+body{
+    margin:0;
+    background: #e2e2e2;
+}
+h1{
+    text-align:center;
+    font-family: 'Akaya Telivigala', cursive;
+    color:#ab0e86;
+    font-size:2.5em;
+    /* background-color: linear-gradient(to bottom right, #ab0e86 , #e01171); */
+}
+#button{
+  border-radius:10px;
+  width: 100px;
+  height: 30px;
+  background-image: linear-gradient(to bottom right, #ab0e86 , #e01171);
+  border: #ab0e86 solid 1px;
+  color:antiquewhite;
+  margin-left: 45vw;
+}
+#sec{
+  margin:2% 0 0 30%;
+  display: none;
+    /*  */
+  align-self: center;
+  background: #fff;
+  height: 80%;
+  width: 40%;
+  overflow: hidden;
+  background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
+  background-size: 200% auto;
+  animation: shine 3s linear infinite;
+}
+#play{
+    padding-top: 2%;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.weaponRooms,#suspectInfo,#description{
+    text-align:center;
+    font-family: 'Libre Baskerville', serif;
+  }
+  #foto{
+    margin:5% 0 0 20%;
+  }
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
